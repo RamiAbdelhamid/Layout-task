@@ -1,0 +1,54 @@
+.container{
+width: 100%;
+height: 100%;
+background-color: rgb(140, 132, 17);
+border-radius: 20px;
+
+}
+
+
+.user1{ 
+    text-align: right;
+  
+width: 100px;
+height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.user2{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    
+}
+
+.user3{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    
+}
+
+.user4{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    
+}
+
+
+
+
+
+

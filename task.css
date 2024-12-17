@@ -1,0 +1,95 @@
+html,
+body {
+  height: 100%;
+}
+
+.item1 {
+  /*Header*/
+  color: white;
+  padding: 10px;
+  grid-area: q;
+  background-color: yellowgreen;
+
+}
+
+.item2 {
+  /*Section 2*/
+  color: white;
+  padding: 10px;
+  grid-area: w;
+  background-color: gainsboro;
+}
+
+.item3 {
+  /*Section 3*/
+  color: white;
+  padding: 10px;
+  grid-area: e;
+  background-color: fuchsia;
+}
+
+.item4 {
+  /*main*/
+  color: white;
+  padding: 10px;
+  grid-area: r;
+  background-color: darkolivegreen;
+}
+
+
+.item5 {
+  /*Extra*/
+  color: white;
+  padding: 10px;
+  grid-area: t;
+  background-color: red;
+}
+
+.item6 {
+  /*Image*/
+  color: white;
+  padding: 10px;
+  grid-area: y;
+  background-color: orange;
+}
+
+.item7 {
+  /*Post*/
+  color: white;
+  padding: 10px;
+  grid-area: u;
+  background-color: violet;
+}
+
+.item8 {
+  /*Footer*/
+  color: white;
+  padding: 10px;
+  grid-area: i;
+  background-color: darkgoldenrod;
+}
+
+
+
+.grid-container {
+  display: grid;
+  text-align: center;
+  height: 100%;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 50px auto 50px;
+  grid-template-areas:
+    "q q q q q q q q q q q q"
+    "w w w r r r r r r r r r "
+    "w w w r r r r r r r r r"
+    "w w w r r r r r r r r r"
+    "e e e r r r r r r r r r"
+    "e e e t t t t t t t t t"
+    "e e e t t t t t t t t t"
+    "y y y y y u u u u u u u"
+    "y y y y y u u u u u u u"
+    "i i i i i i i i i i i i"
+  ;
+
+  grid-gap: 5px;
+}
+
